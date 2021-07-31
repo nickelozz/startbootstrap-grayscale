@@ -33,3 +33,16 @@ sans-serif,
 "Segoe UI Emoji",
 "Segoe UI Symbol",
 "Noto Color Emoji";
+
+// Create a subheadings font family
+
+$subheadings-font-family: $font-family-base;
+
+// Override Bootstrap default headings variables
+
+$headings-font-weight: 700;
+$headings-letter-spacing: 0.0625em;
+
+// Override default Bootstrap line height variables
+
+$line-height-lg: 1.75;

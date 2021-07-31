@@ -94,4 +94,4 @@ function initializeClock(id, endtime) {
 }
 
 const deadline = new Date('September 8 2021 00:00:00 UTC-4');
-initializeClock('clockdiv', deadline);
+initializeClock('clock-countdown', deadline);
