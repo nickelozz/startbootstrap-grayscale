@@ -42,12 +42,3 @@ p {
         margin-bottom: 4rem;
     }
 }
-
-// Increase the padding on sections when screen size is greater
-// than the medium breakpoint (set by Bootstrap)
-
-@include media-breakpoint-up(md) {
-    section {
-        padding: 9rem 0;
-    }
-}

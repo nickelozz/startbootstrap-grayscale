@@ -11066,11 +11066,6 @@ p {
   margin-bottom: 4rem;
 }
 
-@media (min-width: 768px) {
-  section {
-    padding: 9rem 0;
-  }
-}
 #mainNav {
   min-height: 3.5rem;
   background-color: #fff;
@@ -11281,6 +11276,42 @@ hr.divider-light {
 .wedding-party h4, .wedding-party .h4 {
   margin-top: 1.5rem;
   margin-bottom: 0;
+}
+
+#gallery .container-fluid, #gallery .container-sm, #gallery .container-md, #gallery .container-lg, #gallery .container-xl, #gallery .container-xxl {
+  max-width: 1080px;
+}
+#gallery .container-fluid .gallery-box, #gallery .container-sm .gallery-box, #gallery .container-md .gallery-box, #gallery .container-lg .gallery-box, #gallery .container-xl .gallery-box, #gallery .container-xxl .gallery-box {
+  position: relative;
+  display: block;
+}
+#gallery .container-fluid .gallery-box .gallery-box-caption, #gallery .container-sm .gallery-box .gallery-box-caption, #gallery .container-md .gallery-box .gallery-box-caption, #gallery .container-lg .gallery-box .gallery-box-caption, #gallery .container-xl .gallery-box .gallery-box-caption, #gallery .container-xxl .gallery-box .gallery-box-caption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  opacity: 0;
+  color: #fff;
+  background: rgba(100, 161, 157, 0.9);
+  transition: opacity 0.25s ease;
+  text-align: center;
+}
+#gallery .container-fluid .gallery-box .gallery-box-caption .project-category, #gallery .container-sm .gallery-box .gallery-box-caption .project-category, #gallery .container-md .gallery-box .gallery-box-caption .project-category, #gallery .container-lg .gallery-box .gallery-box-caption .project-category, #gallery .container-xl .gallery-box .gallery-box-caption .project-category, #gallery .container-xxl .gallery-box .gallery-box-caption .project-category {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+#gallery .container-fluid .gallery-box .gallery-box-caption .project-name, #gallery .container-sm .gallery-box .gallery-box-caption .project-name, #gallery .container-md .gallery-box .gallery-box-caption .project-name, #gallery .container-lg .gallery-box .gallery-box-caption .project-name, #gallery .container-xl .gallery-box .gallery-box-caption .project-name, #gallery .container-xxl .gallery-box .gallery-box-caption .project-name {
+  font-size: 1.2rem;
+}
+#gallery .container-fluid .gallery-box:hover .gallery-box-caption, #gallery .container-sm .gallery-box:hover .gallery-box-caption, #gallery .container-md .gallery-box:hover .gallery-box-caption, #gallery .container-lg .gallery-box:hover .gallery-box-caption, #gallery .container-xl .gallery-box:hover .gallery-box-caption, #gallery .container-xxl .gallery-box:hover .gallery-box-caption {
+  opacity: 1;
 }
 
 .contact-section {
