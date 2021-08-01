@@ -19,6 +19,9 @@ html(lang='en')
         link(href='https://fonts.googleapis.com/css?family=Varela+Round', rel='stylesheet')
         link(href='https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i', rel='stylesheet')
 
+        // SimpleLightbox plugin CSS
+        link(href='https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css', rel='stylesheet')
+
         // Core theme CSS (includes Bootstrap)
         link(href='css/styles.css', rel='stylesheet')
 
@@ -86,7 +89,7 @@ html(lang='en')
                                 a(href='https://github.com/nickelozz/')
                                     i.fab.fa-github-alt
                             p.text-black-50.mb-0
-                                | Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!
+                                | Oscar met Ashmi 14 years ago, he fell in love with her from the moment they started their friendship. He loves the way she smiles at him and laughs with him. Oscar is excited to start new adventures as a family, creating lasting memories together.
                 .row.gx-0.mb-4.mb-lg-5.align-items-center
                     .col-xl-4.col-lg-5
                         .featured-text.text-left.text-lg-left
@@ -94,7 +97,7 @@ html(lang='en')
                                 a(href='https://www.instagram.com/ashmilingam/')
                                     i.fab.fa-instagram-square
                             p.text-black-50.mb-0
-                                | Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!
+                                | Ashmi met the love of her life at the age of 21, she instantly fell in love with his sweet and kind soul. She can be her authentic self with him, without any fear of judgment. Ashmi is looking forward to growing old with Oscar and has committed herself to continue annoying him for many years to come!
                     .col-xl-8.col-lg-7
                         img.img-fluid.mb-3.mb-lg-0(src='assets/img/bride.jpg', alt='...')
 
@@ -223,7 +226,48 @@ html(lang='en')
                         .wedding-party
                             img.mx-auto.rounded-circle(src='assets/img/bridesmaids/gurjit.jpg', alt='...')
                             p.text-muted Gurjit Flora
-        
+
+        // Gallery
+        #gallery
+            .container-fluid.p-0
+                .row.g-0
+                    .col-lg-4.col-sm-6
+                        a.gallery-box(href='assets/img/gallery/fullsize/1.jpg')
+                            img.img-fluid(src='assets/img/gallery/thumbnails/1.jpg', alt='...')
+                    .col-lg-4.col-sm-6
+                        a.gallery-box(href='assets/img/gallery/fullsize/2.jpg')
+                            img.img-fluid(src='assets/img/gallery/thumbnails/2.jpg', alt='...')
+                    .col-lg-4.col-sm-6
+                        a.gallery-box(href='assets/img/gallery/fullsize/3.jpg')
+                            img.img-fluid(src='assets/img/gallery/thumbnails/3.jpg', alt='...')
+                    .col-lg-4.col-sm-6
+                        a.gallery-box(href='assets/img/gallery/fullsize/4.jpg')
+                            img.img-fluid(src='assets/img/gallery/thumbnails/4.jpg', alt='...')
+                    .col-lg-4.col-sm-6
+                        a.gallery-box(href='assets/img/gallery/fullsize/5.jpg')
+                            img.img-fluid(src='assets/img/gallery/thumbnails/5.jpg', alt='...')
+                    .col-lg-4.col-sm-6
+                        a.gallery-box(href='assets/img/gallery/fullsize/6.jpg')
+                            img.img-fluid(src='assets/img/gallery/thumbnails/6.jpg', alt='...')
+                    .col-lg-4.col-sm-6
+                        a.gallery-box(href='assets/img/gallery/fullsize/7.jpg')
+                            img.img-fluid(src='assets/img/gallery/thumbnails/7.jpg', alt='...')
+                    .col-lg-4.col-sm-6
+                        a.gallery-box(href='assets/img/gallery/fullsize/8.jpg')
+                            img.img-fluid(src='assets/img/gallery/thumbnails/8.jpg', alt='...')
+                    .col-lg-4.col-sm-6
+                        a.gallery-box(href='assets/img/gallery/fullsize/9.jpg')
+                            img.img-fluid(src='assets/img/gallery/thumbnails/9.jpg', alt='...')
+                    .col-lg-4.col-sm-6
+                        a.gallery-box(href='assets/img/gallery/fullsize/10.jpg')
+                            img.img-fluid(src='assets/img/gallery/thumbnails/10.jpg', alt='...')
+                    .col-lg-4.col-sm-6
+                        a.gallery-box(href='assets/img/gallery/fullsize/11.jpg')
+                            img.img-fluid(src='assets/img/gallery/thumbnails/11.jpg', alt='...')
+                    .col-lg-4.col-sm-6
+                        a.gallery-box(href='assets/img/gallery/fullsize/12.jpg')
+                            img.img-fluid(src='assets/img/gallery/thumbnails/12.jpg', alt='...')
+
         // Contact
         section.contact-section.bg-black
             .container.px-4.px-lg-5
@@ -244,6 +288,9 @@ html(lang='en')
 
         // Bootstrap core JS
         script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js')
+
+        // SimpleLightbox plugin JS
+        script(src='https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js')
 
         // Core theme JS
         script(src='js/scripts.js')

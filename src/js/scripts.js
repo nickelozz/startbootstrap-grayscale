@@ -46,6 +46,11 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
+    // Activate SimpleLightbox plugin for gallery items
+    new SimpleLightbox({
+        elements: '#gallery a.gallery-box'
+    });
+
 });
 
 function getTimeRemaining(endtime) {
