@@ -98,5 +98,5 @@ function initializeClock(id, endtime) {
     const timeinterval = setInterval(updateClock, 1000);
 }
 
-const deadline = new Date('September 8 2021 00:00:00 UTC-4');
+const deadline = new Date('July 17 2022 00:00:00 UTC-4');
 initializeClock('clock-countdown', deadline);
